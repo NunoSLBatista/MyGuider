@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyGuider</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_travel">Viagens</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_message">Mensagens</string>
+    <string name="title_profile">Perfil</string>
+</resources>

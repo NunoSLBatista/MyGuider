@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_travel">
+
+    <fragment
+        android:id="@+id/navigation_travel"
+        android:name="com.example.myguider.ui.travel.TravelFragment"
+        tools:layout="@layout/fragment_travel" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.myguider.ui.favorite.FavoriteFragment"
+        android:label="@string/title_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.example.myguider.ui.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/navigation_explore2"
+        android:name="com.example.myguider.ui.favorite.ProfileFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.example.myguider.ui.favorite.MessageFragment"
+        android:label="@string/title_message" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.myguider.ui.favorite.ProfileFragment"
+        android:label="@string/title_profile" />
+</navigation>
