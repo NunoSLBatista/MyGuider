@@ -10,4 +10,7 @@
     <color name="black">#000000</color>
     <color name="themeRegister">#8a7057</color>
     <color name="blueMenu">#5669ff</color>
+    <color name="grey2">#85898f</color>
+    <color name="grey3">#5e5e5e</color>
+    <color name="more">#a5a6e2</color>
 </resources>

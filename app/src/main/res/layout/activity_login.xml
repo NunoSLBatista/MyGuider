@@ -18,7 +18,6 @@
         android:scaleType="centerCrop"
         android:src="@drawable/bg_03" />
 
-
     <View
         android:id="@+id/viewMain"
         android:layout_width="match_parent"
@@ -28,8 +27,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="#60000000" />
-
-
 
     <LinearLayout
         android:id="@+id/skipLogin"
